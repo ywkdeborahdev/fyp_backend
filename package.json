@@ -1,0 +1,36 @@
+{
+  "name": "@consensys-software/smart_contracts",
+  "version": "1.0.0",
+  "description": "Example smart contracts for trying out Quorum",
+  "scripts": {
+    "start": "node backend/server.js",
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/public/log_emitter_deploy.js",
+    "public-transaction": "node scripts/public_tx.js",
+    "private-transaction": "node scripts/private_tx.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ethereumjs/common": "^4.0.0",
+    "@ethereumjs/tx": "^5.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.0",
+    "async-promise-pool": "^1.0.6",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ethers": "6.7.1",
+    "express": "^5.1.0",
+    "fs-extra": "^10.0.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "solc": "0.8.10",
+    "web3": "1.10.2",
+    "web3js-quorum": "22.4.0"
+  }
+}
